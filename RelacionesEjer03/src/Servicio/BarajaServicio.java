@@ -130,7 +130,7 @@ public class BarajaServicio {
 
                 if ("S".equals(opc2) || "s".equals(opc2) || "Si".equals(opc2) || "si".equals(opc2)) {
                     opc = 1;
-                    System.out.println("Cuatas cartas quiere sacar?");
+                    System.out.println("Cuantas cartas quiere sacar?");
                     cantidad = leer.nextInt();
 
                     if (cantidad > miCarta.size()) {
